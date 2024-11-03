@@ -14,7 +14,7 @@ A modern, sleek UI library designed for Roblox exploits featuring a crimson-them
 ## Installation
 ```lua
 -- For executors/exploits
-loadstring(game:HttpGet("https://raw.githubusercontent.com/am0y/Crimson/main/source.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/am0y/Crimson/main/source.lua"))()
 
 -- Example implementation
 local Window = Library:CreateWindow("Crimson")
